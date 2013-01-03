@@ -1,0 +1,45 @@
+
+; Version LPG-td-1.0
+; Seed 35568619
+; Command line: lpg-td-1.0 -o domain.pddl -f problem.pddl -quality 
+; Problem problem.pddl
+; Actions having STRIPS duration
+; Time 0.39
+; Plan generation time 0.19
+; Search time 0.06
+; Parsing time 0.09
+; Mutex time 0.01
+; Quality 29
+
+
+Time 0.39
+
+0:   (UP_CAR B) [1]
+0:   (UP_VAN E) [1]
+0:   (UP_CAR A) [1]
+0:   (UP_CAR D) [1]
+0:   (UP_TRUCK H) [1]
+0:   (UP_CAR C) [1]
+1:   (CLOSE) [1]
+1:   (FIX H) [1]
+2:   (TRAVEL LEFT RIGHT) [1]
+3:   (OPEN) [1]
+3:   (UNFIX H) [1]
+4:   (DOWN_CAR C) [1]
+4:   (DOWN_TRUCK H) [1]
+4:   (DOWN_CAR D) [1]
+5:   (CLOSE) [1]
+6:   (TRAVEL RIGHT LEFT) [1]
+7:   (OPEN) [1]
+8:   (UP_TRUCK G) [1]
+8:   (UP_VAN F) [1]
+9:   (FIX G) [1]
+9:   (CLOSE) [1]
+10:   (TRAVEL LEFT RIGHT) [1]
+11:   (OPEN) [1]
+11:   (UNFIX G) [1]
+12:   (DOWN_VAN F) [1]
+12:   (DOWN_TRUCK G) [1]
+12:   (DOWN_CAR A) [1]
+12:   (DOWN_VAN E) [1]
+12:   (DOWN_CAR B) [1]
